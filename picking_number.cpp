@@ -37,8 +37,15 @@ int pickingNumbers(int arr[], int n)
                 dem = 1;
             }
         }
+        if(k == 0)
+            break;
     }
     int max = temp[0];
+    if(k == 0)
+    {
+        temp[0] = dem;
+        k++;
+    }
     for(int i = 0; i < k; i++)
     {
         if(max < temp[i])
