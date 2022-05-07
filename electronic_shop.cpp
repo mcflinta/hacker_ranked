@@ -7,7 +7,7 @@ void input(int &n, int &m, int &b, int keyboard[], int drive[])
     cin >> n >> m;
     for(int i = 0; i < n; i++)
         cin >> keyboard[i];
-    for(int i = 0; i < n; i++)
+    for(int i = 0; i < m; i++)
         cin >> drive[i];
 
 }
